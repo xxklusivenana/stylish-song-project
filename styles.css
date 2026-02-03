@@ -45,6 +45,7 @@ p {
     border-radius: 5px;
     /* Rounds the corners of the box by 5 pixels */
 }
+    
 
 /* Selects ONLY the 5th paragraph element */
 p:nth-child(5) {
