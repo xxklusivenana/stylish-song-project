@@ -2,19 +2,19 @@ body {
     font-family: Arial, sans-serif;
     /* Sets the font to Arial, or any sans-serif if Arial is missing */
 
-    background: radial-gradient(circle, white, lightgray);
+    background: radial-gradient(circle, rgb(127, 127, 127), rgb(13, 111, 157));
     /* Creates a background that starts white at the center 
        and fades to light gray at the edges */
 }
 
 h1 {
-    color: darkblue;
+    color: rgb(0, 0, 255);
     /* Sets text color to a dark blue shade */
 
     padding: 8px;
     /* Adds 8 pixels of space inside the element around the text */
 
-    text-shadow: 5px 5px 6px gray;
+    text-shadow: 5px 5px 6px rgb(84, 84, 84);
     /* Adds a shadow to the text:
        - 5px horizontal offset (right)
        - 5px vertical offset (down)
@@ -23,10 +23,10 @@ h1 {
 }
 
 p {
-    color: white;
+    color: rgb(255, 255, 255);
     /* Sets lyric text color to white */
 
-    width: 350px;
+    width: 450px;
     /* Restricts the width of lyric lines to 350 pixels */
 
     font-size: 16px;
@@ -35,7 +35,7 @@ p {
     padding: 10px;
     /* Adds breathing room inside the paragraph box */
 
-    background: linear-gradient(to bottom right, darkblue, skyblue);
+    background: linear-gradient(to bottom right, rgb(157, 157, 255), rgb(38, 89, 255));
     /* Creates a gradient background flowing from top-left to bottom-right,
        starting with darkblue and ending with skyblue */
 
